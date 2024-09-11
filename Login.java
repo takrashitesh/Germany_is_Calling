@@ -30,7 +30,7 @@ public class Login {
 
 	@BeforeMethod
 	public void setUp() {
-		
+
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://app.germanyiscalling.com/common/login/");
